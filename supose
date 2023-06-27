@@ -1,0 +1,12 @@
+def find_max(numbers):
+    if not numbers:
+        return None
+    return max(numbers)
+
+result = find_max([5, 2, 9, 1, 7])
+print(result)
+def reverse_list(lst):
+    return lst[::-1]
+
+result = reverse_list([1, 2, 3, 4, 5])
+print(result)
